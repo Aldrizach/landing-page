@@ -1,1 +1,1 @@
-# landing-page
+Creating the Odin "Landing Page" project
