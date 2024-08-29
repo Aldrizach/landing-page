@@ -1,18 +1,52 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 200vh;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .hero{
     background-color: #1F2937;
+    padding: 16px 300px 0px 300px;
     display: flex;
     flex-direction: column;
+    gap: 200px;
+    flex: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    padding: 0;
+    margin: 4px;
+    gap: 16px;
+    color: #E5E7EB;
+}
+
+.hero-body{
+    width: 500px;
+}
+
+button{
+    font-size: 18px;
+    padding: 4px 24px 4px 24px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 .herotext-main{
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .herotext-sec{
@@ -23,6 +57,11 @@ body {
 .logo{
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.info{
+    padding: 50px 300px 100px 300px;
+    flex: auto;
 }
 
 .info-text{
@@ -37,6 +76,12 @@ body {
 
 .quote{
     background-color: #E5E7EB;
+    padding: 0 300px 0 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: auto;
 }
 
 .quote-text{
@@ -48,10 +93,17 @@ body {
 
 .sign-modal{
     background-color: #3882F6;
+    padding: 0 300px 0 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex: auto;
 }
 
 .footer{
     background-color: #1F2937;
+    padding: 0 300px 0 300px;
+    flex: 0 0 100px;
 }
 
 .footer-text{
